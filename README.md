@@ -20,7 +20,7 @@ This repository gives you the solution of everyday problems given in 15DaysOfCod
 		|- day-1-of-15
 			|- It's Hillary
 				|- Python
-				|- C++
+				|- CPP
 		```
 4. Put your code file in this folder. 
 	- **Note**:  Your file name should be same as the *Hackerrank handle*.
