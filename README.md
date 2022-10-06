@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://pps.whatsapp.net/v/t61.24694-24/308923398_617062816719176_7715248416217842148_n.jpg?ccb=11-4&oh=01_AVzp-ROJYn_IRD_RFBvaXnAUIuGQfXcqdzqnHRbL66AVGg&oe=634C5272" width=400px align="center"/></br>
+<h1 align="center"><img src="https://user-images.githubusercontent.com/98325507/194355314-929df953-cfda-4cb6-ab24-de2acc1d1364.png" width=400px align="center"/></br>
 <pre>👨‍💻15DaysOfCode-PhoenixClub</pre>
 </h1>
 
