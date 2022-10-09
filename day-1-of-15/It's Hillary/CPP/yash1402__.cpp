@@ -38,21 +38,21 @@ void solve()
   cin >> totalPoints;
   vector<int> pointArr;
 
+  int arrIdx = -1; // Index for the pointArr. It will point to the last element in the pointArr (-1 denotes empty pointArr).
+
   for (int i = 0; i < totalPoints; i++)
   {
     int x;
     cin >> x;
-    if (i > 0 && pointArr[i - 1] == x)
+    if (i > 0 && pointArr[arrIdx] == x)
       continue;
     pointArr.push_back(x);
+    arrIdx++;
   }
 
   int counts = 0;
   for (int i = 1; i < pointArr.size() - 1; i++)
   {
-    if (pointArr[i] == pointArr[i - 1] && pointArr[i] == pointArr[i + 1])
-      continue;
-
     if (pointArr[i] < pointArr[i - 1] && pointArr[i] < pointArr[i + 1])
       counts++;
     if (pointArr[i] > pointArr[i - 1] && pointArr[i] > pointArr[i + 1])
